@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNG features " >
+  <test name="Execute all classes" >
+    <classes>
+       <class name="TestngConceptes.TestNGBasics" />
+       <class name="TestngConceptes.InvocationConcept" />
+    </classes>
+  </test>
+  </suite>
